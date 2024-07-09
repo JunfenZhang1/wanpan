@@ -1,5 +1,5 @@
 server: 107.175.44.214:443
-auth: uev9P6Vw1figsRZ3HcPlqzrK
+auth: hq4t81nsLrA4WCR5ug==
  
 bandwidth:
   up: 50000 mbps
