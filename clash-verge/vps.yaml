@@ -17,7 +17,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - hysteria2
-      - reality-cf
+      - mozilla-mozilla
       - reality-icloud
       - vless1
       - vless2
@@ -27,7 +27,7 @@ proxy-groups:
     interval: 300
     proxies:
       - hysteria2
-      - reality-cf
+      - mozilla-mozilla
       - reality-icloud
       - vless1
       - vless2
@@ -38,7 +38,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - hysteria2
-      - reality-cf
+      - mozilla-mozilla
       - reality-icloud
       - vless1
       - vless2
@@ -61,7 +61,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - hysteria2
-      - reality-cf
+      - mozilla-mozilla
       - reality-icloud
       - vless1
       - vless2
@@ -76,7 +76,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - hysteria2
-      - reality-cf
+      - mozilla-mozilla
       - reality-icloud
       - vless1
       - vless2
@@ -86,7 +86,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - hysteria2
-      - reality-cf
+      - mozilla-mozilla
       - reality-icloud
       - vless1
       - vless2
@@ -97,7 +97,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - hysteria2
-      - reality-cf
+      - mozilla-mozilla
       - reality-icloud
       - vless1
       - vless2
@@ -117,7 +117,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - hysteria2
-      - reality-cf
+      - mozilla-mozilla
       - reality-icloud
       - vless1
       - vless2
