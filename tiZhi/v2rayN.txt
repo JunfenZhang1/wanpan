@@ -1,5 +1,5 @@
 hysteria2://hq4t81nsLrA4WCR5ug==@107.175.44.214:443/?sni=clash.318649213.xyz&insecure=0#hysteria2
-vless://36a35e61-9ded-4373-b887-7b24e9abbbfd@clash.318649213.xyz:20282?type=tcp&security=reality&sni=addons.mozilla.org&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&flow=xtls-rprx-vision&fp=chrome#mozilla-mozilla|hhyx.love@xray.com
+vless://36a35e61-9ded-4373-b887-7b24e9abbbfd@clash.318649213.xyz:20282?type=tcp&security=reality&sni=addons.mozilla.org&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&flow=xtls-rprx-vision&fp=chrome#reality-mozilla|hhyx.love@xray.com
 vless://4bd45469-e00c-420f-93cf-2dfc1ebe02a8@clash.318649213.xyz:46214?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.icloud.com&fp=chrome&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&type=tcp&headerType=none#reality-icloud
 vless://0da6ec57-62e4-482f-ec33-e2653d081118@clash.318649213.xyz:16100?encryption=none&security=none&type=kcp&headerType=utp&seed=wKrKjtMN49#kcp-utp
 vless://872abfa4-c3c4-4b55-9145-dfd4b4123cdf@clash.318649213.xyz:50134?encryption=none&security=none&type=kcp&headerType=dtls&seed=oT98Wzm9rp#kcp-dtls
