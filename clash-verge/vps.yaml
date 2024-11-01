@@ -20,9 +20,9 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - hysteria2
+      - vlesstest.318649213.xyz
       - reality-mozilla
       - reality-icloud
-      - vlesstest.318649213.xyz
       - vless1
       - vless2
   - name: ♻️ 自动选择
@@ -32,9 +32,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - hysteria2
+      - vlesstest.318649213.xyz
       - reality-mozilla
       - reality-icloud
-      - vlesstest.318649213.xyz
       - vless1
       - vless2
   - name: 🔯 故障转移
@@ -43,9 +43,9 @@ proxy-groups:
     interval: 180
     proxies:
       - hysteria2
+      - vlesstest.318649213.xyz
       - reality-mozilla
       - reality-icloud
-      - vlesstest.318649213.xyz
       - vless1
       - vless2
   - name: 🔮 负载均衡
@@ -55,9 +55,9 @@ proxy-groups:
     interval: 180
     proxies:
       - hysteria2
+      - vlesstest.318649213.xyz
       - reality-mozilla
       - reality-icloud
-      - vlesstest.318649213.xyz
       - vless1
       - vless2
   - name: 🎯 全球直连
@@ -80,9 +80,9 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - hysteria2
+      - vlesstest.318649213.xyz
       - reality-mozilla
       - reality-icloud
-      - vlesstest.318649213.xyz
       - vless1
       - vless2
 rules:
