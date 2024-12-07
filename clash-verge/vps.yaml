@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: hysteria2, server: 107.175.44.214, port: 443, type: hysteria2, password: hq4t81nsLrA4WCR5ug==, auth: hq4t81nsLrA4WCR5ug==, sni: clash.318649213.xyz, skip-cert-verify: true}
+  - {name: hysteria2, server: 107.175.44.214, port: 443, type: hysteria2, password: hq4t81nsLrA4WCR5ug==, auth: hq4t81nsLrA4WCR5ug==, sni: www.bing.com, skip-cert-verify: true}
   - {name: reality-mozilla, server: clash.318649213.xyz, port: 20282, type: vless, uuid: 36a35e61-9ded-4373-b887-7b24e9abbbfd, tls: true, tfo: false, flow: xtls-rprx-vision, reality-opts: {public-key: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg}, servername: addons.mozilla.org, client-fingerprint: chrome, network: tcp}
   - {name: reality-icloud, server: clash.318649213.xyz, port: 46214, type: vless, uuid: 4bd45469-e00c-420f-93cf-2dfc1ebe02a8, tls: true, tfo: false, flow: xtls-rprx-vision, reality-opts: {public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14}, servername: www.icloud.com, client-fingerprint: chrome, network: tcp}
   - {name: vlesstest.318649213.xyz, server: vlesstest.318649213.xyz, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: vlesstest.318649213.xyz, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vlesstest.318649213.xyz}}}
