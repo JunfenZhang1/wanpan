@@ -97,6 +97,7 @@ proxy-groups:
       - vless1
       - vless2
 rules:
+  - DOMAIN-SUFFIX,scholar.google.com,ip突破
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
