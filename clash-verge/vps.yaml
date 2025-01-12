@@ -60,6 +60,17 @@ proxy-groups:
       - vlesstest.318649213.xyz
       - vless1
       - vless2
+proxy-groups:
+  - name: ip突破
+    type: select
+    proxies:
+      - vlesstest.318649213.xyz
+      - hysteria2
+      - DIRECT
+      - reality-mozilla
+      - reality-icloud
+      - vless1
+      - vless2
   - name: 🎯 全球直连
     type: select
     proxies:
