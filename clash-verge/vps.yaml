@@ -60,7 +60,6 @@ proxy-groups:
       - vlesstest.318649213.xyz
       - vless1
       - vless2
-proxy-groups:
   - name: ip突破
     type: select
     proxies:
