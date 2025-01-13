@@ -60,7 +60,7 @@ proxy-groups:
       - vlesstest.318649213.xyz
       - vless1
       - vless2
-  - name: ip突破
+  - name: 🍃 净化ip
     type: select
     proxies:
       - vlesstest.318649213.xyz
@@ -96,7 +96,7 @@ proxy-groups:
       - vless1
       - vless2
 rules:
-  - DOMAIN-SUFFIX,scholar.google.com,ip突破
+  - DOMAIN-SUFFIX,scholar.google.com,🍃 净化ip
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
