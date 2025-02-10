@@ -4,3 +4,6 @@ vless://4bd45469-e00c-420f-93cf-2dfc1ebe02a8@clash.318649213.xyz:46214?security=
 vless://bfce6bff-48a6-4afb-8ea8-7513a0037722@icook.tw:443?security=tls&sni=cfet1b.pages.dev&type=ws&path=/?ed%3D2560&host=cfet1b.pages.dev&encryption=none#clean
 vless://fe3b1e58-05ee-477c-aee6-04fdd387b567@clash.318649213.xyz:42254?security=tls&type=tcp&encryption=none#vless1
 vless://bd95a68f-a9fb-44ab-fda9-32ccb13e1912@clash.318649213.xyz:23309?security=tls&type=tcp&encryption=none#vless2
+vless://0da6ec57-62e4-482f-ec33-e2653d081118@clash.318649213.xyz:16100?encryption=none&security=none&type=kcp&headerType=utp&seed=wKrKjtMN49#kcp-utp
+vless://872abfa4-c3c4-4b55-9145-dfd4b4123cdf@clash.318649213.xyz:50134?encryption=none&security=none&type=kcp&headerType=dtls&seed=oT98Wzm9rp#kcp-dtls
+vless://6b861ab9-1922-47a2-f233-be150c0763b6@clash.318649213.xyz:13911?encryption=none&security=none&type=kcp&headerType=srtp&seed=1PrcTwthcF#kcp-srtp
