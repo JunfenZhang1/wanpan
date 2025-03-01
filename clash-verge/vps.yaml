@@ -145,6 +145,32 @@ proxy-groups:
       - reality-icloud
       - vless1
       - vless2
+  - name: 🍃 净化ip
+    type: select
+    proxies:
+      - 三网自适应分流官方优选
+      - www.gco.gov.qa
+      - www.gov.se
+      - www.gov.ua
+      - 🇸🇬 www.visa.com.sg
+      - 🇨🇳 www.visa.com.tw
+      - 🇯🇵 www.visa.co.jp
+      - 🇭🇰 www.visa.com.hk
+      - 🇰🇷 www.visakorea.com
+      - 🇭🇰 icook.hk
+      - 🇨🇳 icook.tw
+      - 🇮🇸 time.is
+      - ip.sb
+      - 🇷🇺 russia.com
+      - 🇸🇬 singapore.com
+      - skk.moe
+      - Mingyu提供维护官方优选
+      - 小一提供维护官方优选
+      - hysteria2
+      - reality-mozilla
+      - reality-icloud
+      - vless1
+      - vless2
   - name: 🎯 全球直连
     type: select
     proxies:
