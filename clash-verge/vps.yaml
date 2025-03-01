@@ -13,7 +13,17 @@ proxies:
   - {name: 🇸🇬 www.visa.com.sg, server: www.visa.com.sg, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
   - {name: 🇨🇳 www.visa.com.tw, server: www.visa.com.tw, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
   - {name: 🇯🇵 www.visa.co.jp, server: www.visa.co.jp, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
+  - {name: 🇭🇰 www.visa.com.hk, server: www.visa.com.hk, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
+  - {name: 🇰🇷 www.visakorea.com, server: www.visakorea.com, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
+  - {name: 🇭🇰 icook.hk, server: icook.hk, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
   - {name: 🇨🇳 icook.tw, server: icook.tw, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
+  - {name: 🇮🇸 time.is, server: time.is, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
+  - {name: ip.sb, server: ip.sb, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
+  - {name: 🇷🇺 russia.com, server: russia.com, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
+  - {name: 🇸🇬 singapore.com, server: singapore.com, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
+  - {name: skk.moe, server: skk.moe, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
+  - {name: Mingyu提供维护官方优选, server: bestcf.onecf.eu.org, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
+  - {name: 小一提供维护官方优选, server: cf.zhetengsha.eu.org, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
   - {name: reality-mozilla, server: clash.318649213.xyz, port: 20282, type: vless, uuid: 36a35e61-9ded-4373-b887-7b24e9abbbfd, tls: true, tfo: false, flow: xtls-rprx-vision, reality-opts: {public-key: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg}, servername: addons.mozilla.org, client-fingerprint: chrome, network: tcp}
   - {name: reality-icloud, server: clash.318649213.xyz, port: 46214, type: vless, uuid: 4bd45469-e00c-420f-93cf-2dfc1ebe02a8, tls: true, tfo: false, flow: xtls-rprx-vision, reality-opts: {public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14}, servername: www.icloud.com, client-fingerprint: chrome, network: tcp}
   - {name: vless1, server: clash.318649213.xyz, port: 42254, type: vless, uuid: fe3b1e58-05ee-477c-aee6-04fdd387b567, tls: true, tfo: false, network: tcp}
@@ -34,7 +44,17 @@ proxy-groups:
       - 🇸🇬 www.visa.com.sg
       - 🇨🇳 www.visa.com.tw
       - 🇯🇵 www.visa.co.jp
+      - 🇭🇰 www.visa.com.hk
+      - 🇰🇷 www.visakorea.com
+      - 🇭🇰 icook.hk
       - 🇨🇳 icook.tw
+      - 🇮🇸 time.is
+      - ip.sb
+      - 🇷🇺 russia.com
+      - 🇸🇬 singapore.com
+      - skk.moe
+      - Mingyu提供维护官方优选
+      - 小一提供维护官方优选
       - reality-mozilla
       - reality-icloud
       - vless1
@@ -53,7 +73,17 @@ proxy-groups:
       - 🇸🇬 www.visa.com.sg
       - 🇨🇳 www.visa.com.tw
       - 🇯🇵 www.visa.co.jp
+      - 🇭🇰 www.visa.com.hk
+      - 🇰🇷 www.visakorea.com
+      - 🇭🇰 icook.hk
       - 🇨🇳 icook.tw
+      - 🇮🇸 time.is
+      - ip.sb
+      - 🇷🇺 russia.com
+      - 🇸🇬 singapore.com
+      - skk.moe
+      - Mingyu提供维护官方优选
+      - 小一提供维护官方优选
       - reality-mozilla
       - reality-icloud
       - vless1
@@ -71,7 +101,17 @@ proxy-groups:
       - 🇸🇬 www.visa.com.sg
       - 🇨🇳 www.visa.com.tw
       - 🇯🇵 www.visa.co.jp
+      - 🇭🇰 www.visa.com.hk
+      - 🇰🇷 www.visakorea.com
+      - 🇭🇰 icook.hk
       - 🇨🇳 icook.tw
+      - 🇮🇸 time.is
+      - ip.sb
+      - 🇷🇺 russia.com
+      - 🇸🇬 singapore.com
+      - skk.moe
+      - Mingyu提供维护官方优选
+      - 小一提供维护官方优选
       - reality-mozilla
       - reality-icloud
       - vless1
@@ -90,23 +130,17 @@ proxy-groups:
       - 🇸🇬 www.visa.com.sg
       - 🇨🇳 www.visa.com.tw
       - 🇯🇵 www.visa.co.jp
+      - 🇭🇰 www.visa.com.hk
+      - 🇰🇷 www.visakorea.com
+      - 🇭🇰 icook.hk
       - 🇨🇳 icook.tw
-      - reality-mozilla
-      - reality-icloud
-      - vless1
-      - vless2
-  - name: 🍃 净化ip
-    type: select
-    proxies:
-      - 三网自适应分流官方优选
-      - www.gco.gov.qa
-      - www.gov.se
-      - www.gov.ua
-      - 🇸🇬 www.visa.com.sg
-      - 🇨🇳 www.visa.com.tw
-      - 🇯🇵 www.visa.co.jp
-      - 🇨🇳 icook.tw
-      - hysteria2
+      - 🇮🇸 time.is
+      - ip.sb
+      - 🇷🇺 russia.com
+      - 🇸🇬 singapore.com
+      - skk.moe
+      - Mingyu提供维护官方优选
+      - 小一提供维护官方优选
       - reality-mozilla
       - reality-icloud
       - vless1
@@ -138,7 +172,17 @@ proxy-groups:
       - 🇸🇬 www.visa.com.sg
       - 🇨🇳 www.visa.com.tw
       - 🇯🇵 www.visa.co.jp
+      - 🇭🇰 www.visa.com.hk
+      - 🇰🇷 www.visakorea.com
+      - 🇭🇰 icook.hk
       - 🇨🇳 icook.tw
+      - 🇮🇸 time.is
+      - ip.sb
+      - 🇷🇺 russia.com
+      - 🇸🇬 singapore.com
+      - skk.moe
+      - Mingyu提供维护官方优选
+      - 小一提供维护官方优选
       - reality-mozilla
       - reality-icloud
       - vless1
