@@ -146,7 +146,9 @@ proxy-groups:
       - vless1
       - vless2
   - name: 🍃 净化ip
-    type: select
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 180
     proxies:
       - 三网自适应分流官方优选
       - www.gco.gov.qa
