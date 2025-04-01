@@ -234,6 +234,8 @@ rules:
   - DOMAIN-SUFFIX,dcg.microsoft.com,🎯 全球直连
   - DOMAIN-SUFFIX,scholar.google.com,🍃 ip净化
   - DOMAIN-SUFFIX,gemini.google.com,🍃 ip净化
+  - DOMAIN-SUFFIX,www.google.com,🍃 ip净化
+  - DOMAIN-SUFFIX,googleapis.com,🍃 ip净化
   - PROCESS-NAME,cfnat-android-arm64,🎯 全球直连
   - PROCESS-NAME,cfnat-darwin-amd64,🎯 全球直连
   - PROCESS-NAME,cfnat-darwin-arm64,🎯 全球直连
