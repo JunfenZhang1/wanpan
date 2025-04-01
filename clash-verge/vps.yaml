@@ -56,8 +56,8 @@ proxy-groups:
   - name: ☑️手动切换
     type: select
     proxies:
-      - ♻️自动选择
       - 🔯故障转移
+      - ♻️自动选择
       - 🔮负债均衡
       - hysteria2
       - 🇸🇬 singapore.com
