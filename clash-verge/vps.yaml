@@ -9,22 +9,12 @@ proxies:
   - {name: 🇮🇸 time.is, server: time.is, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
   - {name: ip.sb, server: ip.sb, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
   - {name: 🇨🇳 icook.tw, server: icook.tw, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
-  - {name: www.gov.se, server: www.gov.se, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
-  - {name: www.gco.gov.qa, server: www.gco.gov.qa, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
+  - {name: shopify.com, server: shopify.com, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
   - {name: 🇸🇬 singapore.com, server: singapore.com, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
   - {name: 🇯🇵 japan.com, server: japan.com, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
-  - {name: malaysia.com, server: malaysia.com, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
+  - {name: www.gco.gov.qa, server: www.gco.gov.qa, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
+  - {name: www.gov.se, server: www.gov.se, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
   - {name: 官方优选, server: cf.090227.xyz, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
-  - {name: 162.159.142.93, server: 162.159.142.93, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
-  - {name: 162.159.134.29, server: 162.159.134.29, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
-  - {name: 104.16.14.111, server: 104.16.14.111, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
-  - {name: 104.16.56.237, server: 104.16.56.237, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
-  - {name: 104.16.10.137, server: 104.16.10.137, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
-  - {name: 162.159.138.109, server: 162.159.138.109, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
-  - {name: 162.159.128.59, server: 162.159.128.59, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
-  - {name: 104.16.52.201, server: 104.16.52.201, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
-  - {name: 172.67.147.242, server: 172.67.147.242, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
-  - {name: 172.67.153.14, server: 172.67.153.14, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
 proxy-groups:
   - name: 🚀节点选择
     type: select
@@ -38,22 +28,12 @@ proxy-groups:
       - 🇮🇸 time.is
       - ip.sb
       - 🇨🇳 icook.tw
-      - www.gov.se
-      - www.gco.gov.qa
+      - shopify.com
       - 🇸🇬 singapore.com
       - 🇯🇵 japan.com
-      - malaysia.com
+      - www.gco.gov.qa
+      - www.gov.se
       - 官方优选
-      - 162.159.142.93
-      - 162.159.134.29
-      - 104.16.14.111
-      - 104.16.56.237
-      - 104.16.10.137
-      - 162.159.138.109
-      - 162.159.128.59
-      - 104.16.52.201
-      - 172.67.147.242
-      - 172.67.153.14
       - DIRECT
   - name: ☑️手动切换
     type: select
@@ -65,22 +45,12 @@ proxy-groups:
       - 🇮🇸 time.is
       - ip.sb
       - 🇨🇳 icook.tw
-      - www.gov.se
-      - www.gco.gov.qa
+      - shopify.com
       - 🇸🇬 singapore.com
       - 🇯🇵 japan.com
-      - malaysia.com
+      - www.gco.gov.qa
+      - www.gov.se
       - 官方优选
-      - 162.159.142.93
-      - 162.159.134.29
-      - 104.16.14.111
-      - 104.16.56.237
-      - 104.16.10.137
-      - 162.159.138.109
-      - 162.159.128.59
-      - 104.16.52.201
-      - 172.67.147.242
-      - 172.67.153.14
   - name: ♻️自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -91,22 +61,12 @@ proxy-groups:
       - 🇮🇸 time.is
       - ip.sb
       - 🇨🇳 icook.tw
-      - www.gov.se
-      - www.gco.gov.qa
+      - shopify.com
       - 🇸🇬 singapore.com
       - 🇯🇵 japan.com
-      - malaysia.com
+      - www.gco.gov.qa
+      - www.gov.se
       - 官方优选
-      - 162.159.142.93
-      - 162.159.134.29
-      - 104.16.14.111
-      - 104.16.56.237
-      - 104.16.10.137
-      - 162.159.138.109
-      - 162.159.128.59
-      - 104.16.52.201
-      - 172.67.147.242
-      - 172.67.153.14
   - name: 🔯故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -116,22 +76,12 @@ proxy-groups:
       - 🇮🇸 time.is
       - ip.sb
       - 🇨🇳 icook.tw
-      - www.gov.se
-      - www.gco.gov.qa
+      - shopify.com
       - 🇸🇬 singapore.com
       - 🇯🇵 japan.com
-      - malaysia.com
+      - www.gco.gov.qa
+      - www.gov.se
       - 官方优选
-      - 162.159.142.93
-      - 162.159.134.29
-      - 104.16.14.111
-      - 104.16.56.237
-      - 104.16.10.137
-      - 162.159.138.109
-      - 162.159.128.59
-      - 104.16.52.201
-      - 172.67.147.242
-      - 172.67.153.14
   - name: 🔮负债均衡
     type: load-balance
     strategy: consistent-hashing
@@ -143,22 +93,12 @@ proxy-groups:
       - 🇮🇸 time.is
       - ip.sb
       - 🇨🇳 icook.tw
-      - www.gov.se
-      - www.gco.gov.qa
+      - shopify.com
       - 🇸🇬 singapore.com
       - 🇯🇵 japan.com
-      - malaysia.com
+      - www.gco.gov.qa
+      - www.gov.se
       - 官方优选
-      - 162.159.142.93
-      - 162.159.134.29
-      - 104.16.14.111
-      - 104.16.56.237
-      - 104.16.10.137
-      - 162.159.138.109
-      - 162.159.128.59
-      - 104.16.52.201
-      - 172.67.147.242
-      - 172.67.153.14
   - name: 🍃ip净化
     type: select
     proxies:
@@ -170,22 +110,12 @@ proxy-groups:
       - 🇮🇸 time.is
       - ip.sb
       - 🇨🇳 icook.tw
-      - www.gov.se
-      - www.gco.gov.qa
+      - shopify.com
       - 🇸🇬 singapore.com
       - 🇯🇵 japan.com
-      - malaysia.com
+      - www.gco.gov.qa
+      - www.gov.se
       - 官方优选
-      - 162.159.142.93
-      - 162.159.134.29
-      - 104.16.14.111
-      - 104.16.56.237
-      - 104.16.10.137
-      - 162.159.138.109
-      - 162.159.128.59
-      - 104.16.52.201
-      - 172.67.147.242
-      - 172.67.153.14
   - name: 🤖Ai
     type: select
     proxies:
