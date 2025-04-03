@@ -9,7 +9,6 @@ proxies:
   - {name: 🇮🇸 time.is, server: time.is, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
   - {name: ip.sb, server: ip.sb, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
   - {name: 🇨🇳 icook.tw, server: icook.tw, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
-  - {name: shopify.com, server: shopify.com, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
   - {name: 🇸🇬 singapore.com, server: singapore.com, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
   - {name: 🇯🇵 japan.com, server: japan.com, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
   - {name: www.gco.gov.qa, server: www.gco.gov.qa, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
@@ -28,7 +27,6 @@ proxy-groups:
       - 🇮🇸 time.is
       - ip.sb
       - 🇨🇳 icook.tw
-      - shopify.com
       - 🇸🇬 singapore.com
       - 🇯🇵 japan.com
       - www.gco.gov.qa
@@ -45,7 +43,6 @@ proxy-groups:
       - 🇮🇸 time.is
       - ip.sb
       - 🇨🇳 icook.tw
-      - shopify.com
       - 🇸🇬 singapore.com
       - 🇯🇵 japan.com
       - www.gco.gov.qa
@@ -61,7 +58,6 @@ proxy-groups:
       - 🇮🇸 time.is
       - ip.sb
       - 🇨🇳 icook.tw
-      - shopify.com
       - 🇸🇬 singapore.com
       - 🇯🇵 japan.com
       - www.gco.gov.qa
@@ -76,7 +72,6 @@ proxy-groups:
       - 🇮🇸 time.is
       - ip.sb
       - 🇨🇳 icook.tw
-      - shopify.com
       - 🇸🇬 singapore.com
       - 🇯🇵 japan.com
       - www.gco.gov.qa
@@ -93,7 +88,6 @@ proxy-groups:
       - 🇮🇸 time.is
       - ip.sb
       - 🇨🇳 icook.tw
-      - shopify.com
       - 🇸🇬 singapore.com
       - 🇯🇵 japan.com
       - www.gco.gov.qa
@@ -110,7 +104,6 @@ proxy-groups:
       - 🇮🇸 time.is
       - ip.sb
       - 🇨🇳 icook.tw
-      - shopify.com
       - 🇸🇬 singapore.com
       - 🇯🇵 japan.com
       - www.gco.gov.qa
