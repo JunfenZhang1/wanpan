@@ -1,1 +1,2 @@
-hy2://hq4t81nsLrA4WCR5ug==@107.175.44.214:443?insecure=1&sni=www.bing.com#hysteria2
+hy2://WWSpt4VSt1Tq%2FJ0zsuedNdik@107.172.83.53:443?insecure=1&sni=www.bing.com#hysteria2
+hy2://hq4t81nsLrA4WCR5ug==@107.175.44.214:443?insecure=1&sni=www.bing.com#hysteria2-dropped
