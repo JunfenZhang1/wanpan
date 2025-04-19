@@ -5,7 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: hysteria2, server: 107.175.44.214, port: 443, type: hysteria2, password: hq4t81nsLrA4WCR5ug==, auth: hq4t81nsLrA4WCR5ug==, sni: www.bing.com, skip-cert-verify: true}
+  - {name: hysteria2, server: 107.172.83.53, port: 443, type: hysteria2, password: WWSpt4VSt1Tq/J0zsuedNdik, auth: WWSpt4VSt1Tq/J0zsuedNdik, sni: www.bing.com, skip-cert-verify: true}
+  - {name: hysteria2-dropped, server: 107.175.44.214, port: 443, type: hysteria2, password: hq4t81nsLrA4WCR5ug==, auth: hq4t81nsLrA4WCR5ug==, sni: www.bing.com, skip-cert-verify: true}
   - {name: 🇮🇸 time.is, server: time.is, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
   - {name: ip.sb, server: ip.sb, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
   - {name: 🇨🇳 icook.tw, server: icook.tw, port: 443, type: vless, uuid: bfce6bff-48a6-4afb-8ea8-7513a0037722, tls: true, tfo: false, servername: cfete1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfete1.pages.dev}}}
