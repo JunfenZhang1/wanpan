@@ -6,7 +6,6 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: hysteria2, server: 107.172.83.53, port: 443, type: hysteria2, password: WWSpt4VSt1Tq/J0zsuedNdik, auth: WWSpt4VSt1Tq/J0zsuedNdik, sni: www.bing.com, skip-cert-verify: true}
-  - {name: hysteria2-dropped, server: 107.175.44.214, port: 443, type: hysteria2, password: hq4t81nsLrA4WCR5ug==, auth: hq4t81nsLrA4WCR5ug==, sni: www.bing.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀节点选择
     type: select
