@@ -5,7 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: hysteria2, server: 107.172.83.53, port: 443, type: hysteria2, password: WWSpt4VSt1Tq/J0zsuedNdik, auth: WWSpt4VSt1Tq/J0zsuedNdik, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 0hysteria2, server: 107.172.83.53, port: 443, type: hysteria2, password: WWSpt4VSt1Tq/J0zsuedNdik, auth: WWSpt4VSt1Tq/J0zsuedNdik, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 1reality-apple, server: 107.172.83.53, port: 58695, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA}, client-fingerprint: chrome, type: vless, uuid: 19c5a772-39c9-4375-c563-d6faee2ce96f, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: icloud.cdn-apple.com, network: tcp}
+  - {name: 1reality-speedtest, server: 107.172.83.53, port: 16580, reality-opts: {public-key: g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM}, client-fingerprint: chrome, type: vless, uuid: fc98c0a1-4c70-47d4-adf8-14427ecb6714, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: www.speedtest.org, network: tcp}
+  - {name: 1reality-cloudflare, server: 107.172.83.53, port: 59798, reality-opts: {public-key: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg}, client-fingerprint: chrome, type: vless, uuid: 4afeb9c4-671f-42f6-867e-b8f7be400d9d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: blog.api.www.cloudflare.com, network: tcp}
+  - {name: 1reality-mozlia, server: 107.172.83.53, port: 16738, reality-opts: {public-key: g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM}, client-fingerprint: chrome, type: vless, uuid: 7a144d32-eb74-4546-f051-3bae530b6682, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: addons.mozilla.org, network: tcp}
+  - {name: 1reality-lovelive, server: 107.172.83.53, port: 33553, reality-opts: {public-key: UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI}, client-fingerprint: chrome, type: vless, uuid: 9ea43053-aede-4c70-84b2-066a817852ed, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: www.lovelive-anime.jp, network: tcp}
 proxy-groups:
   - name: 🚀节点选择
     type: select
