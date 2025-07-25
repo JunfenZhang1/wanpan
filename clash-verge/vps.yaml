@@ -86,6 +86,13 @@ rule-providers:
     path: ./ruleset/me_clean.list
     interval: 86400
     format: text
+  me_select:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/JunfenZhang1/ACL4SSR/refs/heads/me/Clash/me_select.list
+    path: ./ruleset/me_select.list
+    interval: 86400
+    format: text
   CFnat:
     type: http
     behavior: classical
@@ -369,6 +376,7 @@ rule-providers:
 rules:
   - RULE-SET,me_direct,🎯全球直连
   - RULE-SET,me_clean,🍃ip净化
+  - RULE-SET,me_clean,🚀节点选择
   - RULE-SET,CFnat,🎯全球直连
   - RULE-SET,LocalAreaNetwork,🎯全球直连
   - RULE-SET,UnBan,🎯全球直连
