@@ -365,7 +365,7 @@ rule-providers:
 rules:
   - RULE-SET,me_direct,🎯全球直连
   - RULE-SET,me_clean,🍃ip净化
-  - RULE-SET,me_clean,🚀节点选择
+  - RULE-SET,me_select,🚀节点选择
   - RULE-SET,CFnat,🎯全球直连
   - RULE-SET,LocalAreaNetwork,🎯全球直连
   - RULE-SET,UnBan,🎯全球直连
