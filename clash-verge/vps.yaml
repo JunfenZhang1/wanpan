@@ -22,7 +22,7 @@ proxy-groups:
     include-all: true
   - name: 🍃ip净化
     type: select
-    proxies: [🚀节点选择, 🔯故障转移, 🔯google, ☑️手动切换, ♻️自动选择, 🔮负债均衡]
+    proxies: [🔯google, 🚀节点选择, 🔯故障转移, ☑️手动切换, ♻️自动选择, 🔮负债均衡]
   - name: 🔯故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
