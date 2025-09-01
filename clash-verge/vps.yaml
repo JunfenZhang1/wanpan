@@ -5,47 +5,61 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 00hysteria2, server: 107.172.83.53, port: 443, type: hysteria2, password: WWSpt4VSt1Tq/J0zsuedNdik, auth: WWSpt4VSt1Tq/J0zsuedNdik, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 01reality-apple, server: 107.172.83.53, port: 58695, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA}, client-fingerprint: chrome, type: vless, uuid: 19c5a772-39c9-4375-c563-d6faee2ce96f, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: icloud.cdn-apple.com, network: tcp}
-  - {name: 01reality-speedtest, server: 107.172.83.53, port: 16580, reality-opts: {public-key: g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM}, client-fingerprint: chrome, type: vless, uuid: fc98c0a1-4c70-47d4-adf8-14427ecb6714, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: www.speedtest.org, network: tcp}
-  - {name: 01reality-cloudflare, server: 107.172.83.53, port: 59798, reality-opts: {public-key: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg}, client-fingerprint: chrome, type: vless, uuid: 4afeb9c4-671f-42f6-867e-b8f7be400d9d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: blog.api.www.cloudflare.com, network: tcp}
-  - {name: 01reality-mozlia, server: 107.172.83.53, port: 16738, reality-opts: {public-key: g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM}, client-fingerprint: chrome, type: vless, uuid: 7a144d32-eb74-4546-f051-3bae530b6682, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: addons.mozilla.org, network: tcp}
-  - {name: 01reality-lovelive, server: 107.172.83.53, port: 33553, reality-opts: {public-key: UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI}, client-fingerprint: chrome, type: vless, uuid: 9ea43053-aede-4c70-84b2-066a817852ed, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: www.lovelive-anime.jp, network: tcp}
+  - {name: 00hysteria2, server: vps.318649213.xyz, port: 443, type: hysteria2, password: WWSpt4VSt1Tq/J0zsuedNdik, auth: WWSpt4VSt1Tq/J0zsuedNdik, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 01reality-apple, server: vps.318649213.xyz, port: 58695, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA}, client-fingerprint: chrome, type: vless, uuid: 19c5a772-39c9-4375-c563-d6faee2ce96f, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: icloud.cdn-apple.com, network: tcp}
+  - {name: 01reality-speedtest, server: vps.318649213.xyz, port: 16580, reality-opts: {public-key: g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM}, client-fingerprint: chrome, type: vless, uuid: fc98c0a1-4c70-47d4-adf8-14427ecb6714, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: www.speedtest.org, network: tcp}
+  - {name: 01reality-cloudflare, server: vps.318649213.xyz, port: 59798, reality-opts: {public-key: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg}, client-fingerprint: chrome, type: vless, uuid: 4afeb9c4-671f-42f6-867e-b8f7be400d9d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: blog.api.www.cloudflare.com, network: tcp}
+  - {name: 01reality-mozlia, server: vps.318649213.xyz, port: 16738, reality-opts: {public-key: g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM}, client-fingerprint: chrome, type: vless, uuid: 7a144d32-eb74-4546-f051-3bae530b6682, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: addons.mozilla.org, network: tcp}
+  - {name: 01reality-lovelive, server: vps.318649213.xyz, port: 33553, reality-opts: {public-key: UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI}, client-fingerprint: chrome, type: vless, uuid: 9ea43053-aede-4c70-84b2-066a817852ed, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: www.lovelive-anime.jp, network: tcp}
   - {name: 10google-hy2, server: gcloud.318649213.xyz, port: 62403, client-fingerprint: chrome, type: hysteria2, password: 69f19483-7388-4b77-bff0-15982173fc19, auth: 69f19483-7388-4b77-bff0-15982173fc19, sni: www.bing.com, skip-cert-verify: true}
   - {name: 11google-vl-reality, server: gcloud.318649213.xyz, port: 20447, reality-opts: {public-key: 202eUuoL_JFZHci3ZTJ-5osY5NKV8VizvVUnhM14-gA, short-id: "b21ec08c" }, client-fingerprint: chrome, type: vless, uuid: 69f19483-7388-4b77-bff0-15982173fc19, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: www.yahoo.com, network: tcp}
   - {name: 12google-vm-ws, server: gcloud.318649213.xyz, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 69f19483-7388-4b77-bff0-15982173fc19, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: 69f19483-7388-4b77-bff0-15982173fc19-vm, headers: {Host: www.bing.com}}}
+  - {name: 20othersg-cf_tunnel_visa_tw_443, server: www.visa.com.tw, port: 443, client-fingerprint: chrome, type: vless, uuid: 0e1c398a-7b33-4fe1-82cb-eb6bfbc186fd, tls: true, tfo: false, skip-cert-verify: false, servername: rabbit-calendars-shed-pic.trycloudflare.com, network: ws, ws-opts: {path: "/0e1c398a-7b33-4fe1-82cb-eb6bfbc186fd?ed=2048", headers: {Host: rabbit-calendars-shed-pic.trycloudflare.com}}}
+  - {name: 21othersg-cf_tunnel_visa_hk_2053, server: www.visa.com.hk, port: 2053, client-fingerprint: chrome, type: vless, uuid: 0e1c398a-7b33-4fe1-82cb-eb6bfbc186fd, tls: true, tfo: false, skip-cert-verify: false, servername: rabbit-calendars-shed-pic.trycloudflare.com, network: ws, ws-opts: {path: "/0e1c398a-7b33-4fe1-82cb-eb6bfbc186fd?ed=2048", headers: {Host: rabbit-calendars-shed-pic.trycloudflare.com}}}
+  - {name: 22othersg-cf_tunnel_visa_br_8443, server: www.visa.com.br, port: 8443, client-fingerprint: chrome, type: vless, uuid: 0e1c398a-7b33-4fe1-82cb-eb6bfbc186fd, tls: true, tfo: false, skip-cert-verify: false, servername: rabbit-calendars-shed-pic.trycloudflare.com, network: ws, ws-opts: {path: "/0e1c398a-7b33-4fe1-82cb-eb6bfbc186fd?ed=2048", headers: {Host: rabbit-calendars-shed-pic.trycloudflare.com}}}
+  - {name: 23othersg-cf_tunnel_visa_ch_443, server: www.visaeurope.ch, port: 443, client-fingerprint: chrome, type: vless, uuid: 0e1c398a-7b33-4fe1-82cb-eb6bfbc186fd, tls: true, tfo: false, skip-cert-verify: false, servername: rabbit-calendars-shed-pic.trycloudflare.com, network: ws, ws-opts: {path: "/0e1c398a-7b33-4fe1-82cb-eb6bfbc186fd?ed=2048", headers: {Host: rabbit-calendars-shed-pic.trycloudflare.com}}}
+  - {name: 24othersg-cf_tunnel_visa_us_2053, server: usa.visa.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 0e1c398a-7b33-4fe1-82cb-eb6bfbc186fd, tls: true, tfo: false, skip-cert-verify: false, servername: rabbit-calendars-shed-pic.trycloudflare.com, network: ws, ws-opts: {path: "/0e1c398a-7b33-4fe1-82cb-eb6bfbc186fd?ed=2048", headers: {Host: rabbit-calendars-shed-pic.trycloudflare.com}}}
+  - {name: 25othersg-cf_tunnel_icook_hk_8443, server: icook.hk, port: 8443, client-fingerprint: chrome, type: vless, uuid: 0e1c398a-7b33-4fe1-82cb-eb6bfbc186fd, tls: true, tfo: false, skip-cert-verify: false, servername: rabbit-calendars-shed-pic.trycloudflare.com, network: ws, ws-opts: {path: "/0e1c398a-7b33-4fe1-82cb-eb6bfbc186fd?ed=2048", headers: {Host: rabbit-calendars-shed-pic.trycloudflare.com}}}
+  - {name: 26othersg-cf_tunnel_icook_tw_443, server: icook.tw, port: 443, client-fingerprint: chrome, type: vless, uuid: 0e1c398a-7b33-4fe1-82cb-eb6bfbc186fd, tls: true, tfo: false, skip-cert-verify: false, servername: rabbit-calendars-shed-pic.trycloudflare.com, network: ws, ws-opts: {path: "/0e1c398a-7b33-4fe1-82cb-eb6bfbc186fd?ed=2048", headers: {Host: rabbit-calendars-shed-pic.trycloudflare.com}}}
 
 proxy-groups:
   - name: 🚀节点选择
     type: select
-    proxies: [🔯故障转移, 🔯google, ☑️手动切换, ♻️自动选择, 🔮负债均衡, DIRECT]
+    proxies: [🔯故障转移, 🔯google, ☑️other, ☑️手动切换, ♻️自动选择, 🔮负债均衡, DIRECT]
     include-all: true
+    filter: ^(?i)(?!.*(google|other)).*$
   - name: 🍃ip净化
     type: select
-    proxies: [🔯google, 🔯故障转移, 🚀节点选择, ☑️手动切换, ♻️自动选择, 🔮负债均衡]
+    proxies: [🔯故障转移, 🔯google, ☑️other, 🚀节点选择, ☑️手动切换, ♻️自动选择, 🔮负债均衡]
   - name: 🔯故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     include-all: true
-    filter: ^(?i)(?!.*(google)).*$
+    filter: ^(?i)(?!.*(google|other)).*$
   - name: 🔯google
     url: http://www.gstatic.com/generate_204
     interval: 180
     type: select
     include-all: true
     filter: (?i)google
+  - name: ☑️other
+    type: select
+    include-all: true
+    exclude-type: direct
+    filter: (?i)other
   - name: ☑️手动切换
-    proxies: [🔯故障转移, 🔯google, ♻️自动选择, 🔮负债均衡]
+    proxies: [🔯故障转移, 🔯google, ☑️other, ♻️自动选择, 🔮负债均衡]
     include-all: true
     type: select
+    filter: ^(?i)(?!.*(google|other)).*$
   - name: ♻️自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 180
     tolerance: 50
     include-all: true
-    filter: ^(?i)(?!.*(google)).*$
+    filter: ^(?i)(?!.*(google|other)).*$
   - name: 🔮负债均衡
     type: load-balance
     strategy: consistent-hashing
@@ -53,26 +67,25 @@ proxy-groups:
     interval: 180
     tolerance: 50
     include-all: true
-    filter: ^(?i)(?!.*(google)).*$
+    filter: ^(?i)(?!.*(google|other)).*$
   - name: 🤖Ai
     type: select
-    proxies: [🚀节点选择, 🔯故障转移, 🔯google, ☑️手动切换, ♻️自动选择, 🔮负债均衡, 🍃ip净化, DIRECT]
+    proxies: [🚀节点选择, 🔯故障转移, 🔯google, ☑️other, ☑️手动切换, ♻️自动选择, 🔮负债均衡, 🍃ip净化, DIRECT]
   - name: 📺哔哩哔哩
     type: select
-    proxies: [DIRECT, 🚀节点选择, 🔯故障转移, 🔯google, ☑️手动切换, ♻️自动选择, 🔮负债均衡, 🍃ip净化]
+    proxies: [DIRECT, 🚀节点选择, 🔯故障转移, 🔯google, ☑️other, ☑️手动切换, ♻️自动选择, 🔮负债均衡, 🍃ip净化]
   - name: 🐟漏网之鱼
     type: select
-    proxies: [🚀节点选择, 🔯故障转移, 🔯google, ☑️手动切换, ♻️自动选择, 🔮负债均衡, 🍃ip净化, DIRECT]
+    proxies: [🚀节点选择, 🔯故障转移, 🔯google, ☑️other, ☑️手动切换, ♻️自动选择, 🔮负债均衡, 🍃ip净化, DIRECT]
   - name: 🎯全球直连
     type: select
-    proxies: [DIRECT, 🚀节点选择, 🔯故障转移, 🔯google, ☑️手动切换, ♻️自动选择, 🔮负债均衡, 🍃ip净化]
+    proxies: [DIRECT, 🚀节点选择, 🔯故障转移, 🔯google, ☑️other, ☑️手动切换, ♻️自动选择, 🔮负债均衡, 🍃ip净化]
   - name: 🛑广告拦截
     type: select
     proxies: [REJECT, DIRECT]
   - name: 🍃应用净化
     type: select
     proxies: [REJECT, DIRECT]
-
 rule-providers:
   me_direct:
     type: http
@@ -375,7 +388,6 @@ rule-providers:
     path: ./ruleset/adobe.list
     interval: 86400
     format: text
-
 rules:
   - RULE-SET,me_direct,🎯全球直连
   - RULE-SET,me_clean,🍃ip净化
