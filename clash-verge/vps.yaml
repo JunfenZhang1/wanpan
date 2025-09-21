@@ -12,6 +12,7 @@ proxies:
   - {name: 10google-hy2, server: gcloud.318649213.xyz, port: 62403, client-fingerprint: chrome, type: hysteria2, password: 69f19483-7388-4b77-bff0-15982173fc19, auth: 69f19483-7388-4b77-bff0-15982173fc19, sni: www.bing.com, skip-cert-verify: true}
   - {name: 11google-vl-reality, server: gcloud.318649213.xyz, port: 20447, reality-opts: {public-key: 202eUuoL_JFZHci3ZTJ-5osY5NKV8VizvVUnhM14-gA, short-id: "b21ec08c" }, client-fingerprint: chrome, type: vless, uuid: 69f19483-7388-4b77-bff0-15982173fc19, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.yahoo.com, network: tcp}
   - {name: 12google-vm-ws, server: gcloud.318649213.xyz, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 69f19483-7388-4b77-bff0-15982173fc19, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: 69f19483-7388-4b77-bff0-15982173fc19-vm, headers: {Host: www.bing.com}}}
+  - {name: 13google-tu5, server: 35.212.160.27, port: 53823, client-fingerprint: chrome, type: tuic, password: 69f19483-7388-4b77-bff0-15982173fc19, uuid: 69f19483-7388-4b77-bff0-15982173fc19, sni: www.bing.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 15000, udp-relay-mode: native, congestion-controller: bbr}
 
 proxy-groups:
   - name: 🚀节点选择
